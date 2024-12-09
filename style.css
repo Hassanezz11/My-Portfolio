@@ -22,6 +22,9 @@ body {
   background-color: var(--bg-color);
   background-image: url(imgs/body.png);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* min-height: 100vh; */
   line-height: 1.7;
   max-width: 1200px;
@@ -427,6 +430,8 @@ a[class="selectedopt"] {
 .work {
   text-align: center;
   min-height: 100vh;
+  width: 70%;
+  margin-left: 15%;
   padding-block: 2rem;
   padding-inline: 3rem;
   display: flex;
@@ -650,18 +655,30 @@ a[class="selectedopt"] {
   padding: 30px 60px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
   background-color: #000000;
   background-color: var(--second-bg-color);
   color: white;
   border-radius: 10px;
   text-align: start;
-  width: 60%;
+  width: 70%;
   height: 100%;
 }
 
 .cont a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.cont p{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.cont i{
+    text-decoration: none;
+    margin-right: 10px;
 }
 .form-section {
   width: 100%;
@@ -1134,5 +1151,10 @@ footer {
 @media screen and (max-width: 860px) {
     .floot-nav-screen{
         display: none;
+        }
+}
+@media screen and (max-width: 615px) {
+    .cont{
+        width: 100%;
         }
 }

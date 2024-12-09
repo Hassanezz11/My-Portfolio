@@ -41,33 +41,33 @@ let projectsNav = document.querySelector(".projects-nav");
 let projects = [
   {
     id: 1,
-    title: "E-Shopping Cart",
+    title: "Art Palette Matcher",
     description:
-      "An interactive online shopping cart built with HTML, CSS, and JavaScript, featuring dynamic product listings and a responsive checkout process.",
-    source: "/imgs/projects/eshoping cart project.webp",
-    stack: "HTML5, CSS3, JavaScript",
-    liveProject: "https://abdellahak.github.io/eshoping-Cart/",
-    githubResp: "https://github.com/abdellahak/eshoping-Cart",
+      "A tool for artists and designers that extracts dominant colors from uploaded images and generates a matching or complementary color palette.",
+    source: "imgs/projects/art.png",
+    stack: "HTML5, CSS3, React",
+    liveProject: "https://Hassanezz11.github.io/palette-matcher",
+    githubResp: "hhttps://github.com/github.com/calculator-app",
   },
   {
     id: 2,
     title: "Calculator App",
     description:
       "A simple calculator application built with HTML, CSS, and JavaScript.",
-    source: "/imgs/projects/calculator-app.webp",
+    source: "imgs/projects/calculator-app.png",
     stack: "HTML5, CSS3, JavaScript",
-    liveProject: "https://abdellahak.github.io/calculator-app/",
-    githubResp: "https://github.com/abdellahak/calculator-app",
+    liveProject: "https://Hassanezz11.github.io/calculator-app/",
+    githubResp: "https://github.com/Hassanezz11/calculator-app",
   },
   {
     id: 3,
     title: "My Portfolio",
     description:
       "A responsive portfolio website built with HTML, CSS, and JavaScript.",
-    source: "/imgs/projects/my-portfolio.webp",
+    source: "imgs/projects/my-portfolio.png",
     stack: "HTML5, CSS3, JavaScript",
-    liveProject: "https://abdellahak.github.io/my-portfolio",
-    githubResp: "https://github.com/abdellahak/my-portfolio",
+    liveProject: "https://https://hassanezz.netlify.app",
+    githubResp: "https://github.com/Hassanezz11/my-portfolio",
   },
 //   {
 //     id: 4,
